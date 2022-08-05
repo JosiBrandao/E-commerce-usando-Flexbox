@@ -1,0 +1,133 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo{
+    color: indigo;
+    font-weight: bolder;
+    
+  }
+  .menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  align-content: flex-start;}
+    .menu nav{
+      margin-left: 100px;
+    }
+
+
+  .menu-flex menu-second-column{ 
+    align-items:center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }  
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  width: 800px;
+  gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+  background-color: azure;
+  padding: 20px 0px 20px 0px;
+  justify-content: space-between;
+  justify-items: end;
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+  flex-direction: row;
+}
+
+.menu-link-button {
+  justify-content: right;
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.products-wrapper{  
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+.products-wrapper div{
+display: flex;
+width: 24%;
+height: 420px;
+background-color: #f2f3f9;
+border-radius: 10px;
+justify-content: space-between;
+flex-direction: column;
+
+}
+
+.products-wrapper div div{
+width: 100%;
+height: 50%;
+}
+.products-wrapper div div img{
+  width: 100%;
+}
+
+.produtos{
+width: 24%;
+margin-bottom: 20px;
+background-color: #7387df;
+padding: 10px 5px 10px 5px;
+
+
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    max-width: 100%;
+    color: #000104;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #bdc5e8;
+    border: 1px solid #0f0f10;
+    }
+   .produtos a{
+    background-color: #bdc5e8;
+    height: 30px;
+    border-radius: 5px;
+    color: #000104;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    max-width: 100%;
+    }
+    
+   
